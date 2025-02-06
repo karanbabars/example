@@ -1,4 +1,4 @@
-- hosts: ec2
+- hosts: all
   become: yes
   tasks:
     - name: Install OpenJDK 11
