@@ -6,7 +6,7 @@ provider "aws" {
 // EC2 instance resource
 resource "aws_instance" "ec2" {
   ami           = "ami-01816d07b1128cd2d"  
-  instance_type = "t2.micro"
+  instance_type = "t2.medium"
 
   tags = {
     Name = "karan"
